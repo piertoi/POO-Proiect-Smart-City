@@ -16,7 +16,7 @@ else()
 endif()
 
 # Main executable
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp ElementUrban.cpp Cladire.cpp Spital.cpp Senzor.cpp SenzorTemp.cpp SenzorUmid.cpp StatieMeteo.cpp Gestionar.cpp Meniu.cpp)
 
 if(GITHUB_ACTIONS)
     message("NOTE: GITHUB_ACTIONS defined")
